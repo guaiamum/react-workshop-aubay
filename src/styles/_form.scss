@@ -1,0 +1,23 @@
+.fi-w {
+    padding: $space-small;
+    
+    label {
+        color: white;
+        font-weight: bold;
+        padding-right: $space-extra-small;
+    }
+    
+    input {
+        border: none;
+        padding: $space-small;
+        color: white;
+        background: #44474c;
+    
+        &::-webkit-outer-spin-button,
+        &::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+    }
+}
+  

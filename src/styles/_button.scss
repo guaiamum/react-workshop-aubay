@@ -1,0 +1,15 @@
+.btn {
+    border: none;
+    padding: $space-medium;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+
+    &._gr {
+        background: #1c6d2e;
+    }
+
+    &._bl {
+        background: #224783;
+    }
+}
